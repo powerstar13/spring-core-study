@@ -1,0 +1,12 @@
+### get
+GET http://localhost:8080/api/get/100?name=aop
+
+### post
+POST http://localhost:8080/api/post
+Content-Type: application/json
+
+{
+  "id": "aop",
+  "pw": "1234",
+  "email": "aop@gamil.com"
+}

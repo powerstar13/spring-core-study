@@ -2,3 +2,4 @@
 
 1. DI(Dependency Injection) 구현하기
 2. Spring IoC(Inversion of Control) 사용하기
+3. AOP(Aspect Oriented Programming) 실무 사례 알아보기
