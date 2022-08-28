@@ -1,4 +1,4 @@
-package spring.core.study;
+package spring.core.study.di;
 
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;

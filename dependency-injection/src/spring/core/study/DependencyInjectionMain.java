@@ -1,6 +1,10 @@
 package spring.core.study;
 
-public class IocMain {
+import spring.core.study.di.Base64Encoder;
+import spring.core.study.di.Encoder;
+import spring.core.study.di.UrlEncoder;
+
+public class DependencyInjectionMain {
 
     public static void main(String[] args) {
 

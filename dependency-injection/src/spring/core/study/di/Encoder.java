@@ -1,4 +1,4 @@
-package spring.core.study;
+package spring.core.study.di;
 
 public class Encoder {
 
