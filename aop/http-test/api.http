@@ -10,3 +10,6 @@ Content-Type: application/json
   "pw": "1234",
   "email": "aop@gamil.com"
 }
+
+### delete
+DELETE http://localhost:8080/api/delete

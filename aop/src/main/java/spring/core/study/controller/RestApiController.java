@@ -1,6 +1,7 @@
 package spring.core.study.controller;
 
 import org.springframework.web.bind.annotation.*;
+import spring.core.study.annotation.Timer;
 import spring.core.study.dto.User;
 
 @RestController
@@ -21,5 +22,13 @@ public class RestApiController {
         System.out.println("===== POST method =====");
 
         return user;
+    }
+
+    @Timer // 직접 만든 애노테이션 사용
+    @DeleteMapping("/delete")
+    public void delete() throws InterruptedException {
+
+        // DB logic
+        Thread.sleep(2000);
     }
 }
