@@ -1,6 +1,7 @@
 package spring.core.study.controller;
 
 import org.springframework.web.bind.annotation.*;
+import spring.core.study.annotation.Decode;
 import spring.core.study.annotation.Timer;
 import spring.core.study.dto.User;
 
@@ -30,5 +31,14 @@ public class RestApiController {
 
         // DB logic
         Thread.sleep(2000);
+    }
+
+    @Decode
+    @PutMapping("/put")
+    public User put(@RequestBody User user) {
+
+        System.out.println("===== PUT method =====");
+
+        return user;
     }
 }

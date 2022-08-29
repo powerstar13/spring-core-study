@@ -6,3 +6,7 @@
    - Method Parameter Log
    - 실행 시간 Log 
    - Custom Annotation 만들기
+   - Parameter Encode
+     - 전처리로 Base64 디코딩
+     - 후처리로 Base64 인코딩
+

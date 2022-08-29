@@ -13,3 +13,13 @@ Content-Type: application/json
 
 ### delete
 DELETE http://localhost:8080/api/delete
+
+### put
+PUT http://localhost:8080/api/put
+Content-Type: application/json
+
+{
+  "id": "aop",
+  "pw": "1234",
+  "email": "bWFzdGVyQGdtYWlsLmNvbQ=="
+}
