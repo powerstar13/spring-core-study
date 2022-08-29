@@ -9,4 +9,8 @@
    - Parameter Encode
      - 전처리로 Base64 디코딩
      - 후처리로 Base64 인코딩
-
+4. ObjectMapper 실무 사례 알아보기
+   - writeValueAsString() 메서드를 사용하여 객체를 문자열 Json으로 변환하기
+   - readTree() 메서드를 사용하여 JsonNode로 받아 파싱하기
+     - ArrayNode, ObjectNode로 받아 파싱하기
+     - convertValue() 메서드 사용하기
